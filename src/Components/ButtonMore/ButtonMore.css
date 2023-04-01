@@ -1,0 +1,20 @@
+.button_container {
+    max-width: 264px;
+    max-height: 353px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_more {
+    margin-top: 0;
+    font-size: 20px;
+    background-color: #000;
+    padding: 12px 30px;
+    border-radius: 100px;
+    color: #fff;
+    line-height: 1em;
+    cursor: pointer;
+    text-align: center;
+}

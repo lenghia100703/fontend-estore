@@ -1,0 +1,29 @@
+.hat_container {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.hat_header {
+    margin-top: 48px;
+}
+
+.hat_inner {
+    margin-bottom: 64px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+}
+.button-show-more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .hat_inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

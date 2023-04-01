@@ -1,0 +1,25 @@
+.shoes_container {
+    padding-left: 64px;
+    padding-right: 64px;
+    
+}
+
+.shoes_header {
+    margin-top: 48px;
+}
+
+.shoes_inner {
+    margin-bottom: 64px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+}
+
+@media (max-width: 500px) {
+    .shoes_inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

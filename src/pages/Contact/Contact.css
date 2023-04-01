@@ -1,0 +1,15 @@
+.gallery-container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-area {
+}
+
+.gallery_row {
+    display: grid;
+    grid-template-columns: 358px 358px 358px;
+    column-gap: 50px;
+    row-gap: 50px;
+}

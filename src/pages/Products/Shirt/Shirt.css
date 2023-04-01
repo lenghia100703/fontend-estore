@@ -1,0 +1,29 @@
+.shirt_container {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.shirt_header {
+    margin-top: 48px;
+}
+
+.shirt_inner {
+    margin-bottom: 64px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+}
+.button-show-more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .shirt_inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

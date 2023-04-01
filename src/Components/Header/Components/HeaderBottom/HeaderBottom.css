@@ -1,0 +1,90 @@
+.count-of-product {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background: #00b1ff;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 12px;
+    top: 0px;
+    right: 10px;
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -ms-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 500px) {
+    .dark-mode-btn-icon{
+        margin-top: 15px;
+        position: absolute;
+    }
+    .slicknav_nav *{
+        background-color: #333;
+    }
+  }
+
+  .dropbtn {
+    background-color: #fff;
+    color: black;
+    /* padding: 8px 8px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* width: 100px; */
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content div {
+    color: black;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .dropdown .dropbtn{
+    background-color: transparent;
+  }
+
+  .dropdown .dropbtn img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  #myDropdown {
+    position: absolute;
+    top: 55px;
+    right: 0;
+  }
+
+  #myDropdown div{
+    min-width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }

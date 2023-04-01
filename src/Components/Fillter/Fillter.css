@@ -1,0 +1,134 @@
+
+.shoes_content .shoes_inner{
+    width: 80%;
+}
+
+.shoes_content .hat_inner{
+    width: 80%;
+}
+
+.shoes_content .shirt_inner{
+    width: 80%;
+}
+
+.shoes_fillter{
+    width: 20%;
+}
+
+.shoes_content{
+    width: 100%;
+    display: flex;
+}
+
+.shoes_fillter h4{
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+
+.shoes_fillter{
+    /* transform: translateY(20px); */
+}
+
+.shoes_fillter ul li label{
+    margin-left: 8px;
+}
+
+.btn-clear{
+    padding: 10px 30px;
+    width: auto;
+    margin: auto;
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+/* if mobile */
+@media screen and (max-width: 768px) {
+    .shoes_content .shoes_inner{
+        width: 100%;
+    }
+    
+    .shoes_content .hat_inner{
+        width: 100%;
+    }
+    
+    .shoes_content .shirt_inner{
+        width: 100%;
+    }
+    
+    .shoes_fillter{
+        width: 100%;
+    }
+    
+    .shoes_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .shoes_fillter h4{
+        margin-bottom: 24px;
+        margin-top: 20px;
+    }
+    
+    .shoes_fillter{
+        /* transform: translateY(20px); */
+    }
+    
+    .shoes_fillter ul li label{
+        margin-left: 8px;
+    }
+    
+    .btn-clear{
+        padding: 10px 30px;
+        width: auto;
+        margin: auto;
+        margin-top: 24px;
+        font-size: 16px;
+    }
+}
+
+/* if ipad */
+@media screen and (max-width: 1024px) {
+    .shoes_content .shoes_inner{
+        width: 100%;
+    }
+    
+    .shoes_content .hat_inner{
+        width: 100%;
+    }
+    
+    .shoes_content .shirt_inner{
+        width: 100%;
+    }
+    
+    .shoes_fillter{
+        width: 100%;
+    }
+    
+    .shoes_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .shoes_fillter h4{
+        margin-bottom: 24px;
+        margin-top: 20px;
+    }
+    
+    .shoes_fillter{
+        /* transform: translateY(20px); */
+    }
+    
+    .shoes_fillter ul li label{
+        margin-left: 8px;
+    }
+    
+    .btn-clear{
+        padding: 10px 30px;
+        width: auto;
+        margin: auto;
+        margin-top: 24px;
+        font-size: 16px;
+    }
+}
